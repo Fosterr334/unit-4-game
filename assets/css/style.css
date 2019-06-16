@@ -1,0 +1,60 @@
+body{
+    background       : url("assets\css\images\whitediamond\whitediamond.png") repeat;
+}
+.container{
+    float            : left;
+    background       : tan;
+    margin           : 1%;
+    border           : solid #000;
+    border-width     : 1px 1px;
+}
+h1{
+    margin-left      : 1%; 
+    color            : darkblue;
+    background       : skyblue;
+    text-align       : center;
+    border           : solid #000;
+    border-width     : 1px 1px;
+}
+#rules{
+    margin           : 1%; 
+    color            : #800000;
+}
+#goal{
+    margin           : 1%; 
+    background       : whitesmoke;
+    border           : solid #000;
+    border-width     : 1px 1px;
+}
+.scoreText{
+    color            : darkblue;
+    font-size        : 150%;
+}
+#goalNum{
+    color            : darkblue;
+    font-size        : 250%;
+}
+.gemProperties{
+    margin           : 3%;
+    background       : #000;
+    padding          : 1% 1%;
+}
+#userNum{
+    color            : darkblue;
+    font-size        : 250%;
+}
+#userScore{
+    margin           : 1%; 
+    background       : whitesmoke;
+    border           : solid #000;
+    border-width     : 1px 1px;
+}
+.winText, .lossText, #loseTotal, #winTotal{
+    color            : #800000;
+    font-size        : 160%; 
+}
+#restartBtn{
+    margin-top       : 15%;
+    border           : solid #000;
+    border-width     : 1px 1px;
+}

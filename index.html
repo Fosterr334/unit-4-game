@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>💎Gem Game💎</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- style.css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <h1 class="col-xl-3">Gem Game</h1>
+    <!-- Rules and Point Goal -->
+    <div class="container col-xl-5">
+        <!-- Rules -->
+        <div id="rules" class="row">
+            <div>
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are 5 gems. By clicking on a gem you will modify your score.</p>
+                <p>You win the game by matching your score to the random number, you lose the game if your score goes above the random number.</p>
+                <p>The valube of each gem is hidden from you until you click on it</p>
+                <p>Each time the game starts, the value of the gems will change</p>
+            </div>
+        </div>
+        <!-- Point Goal -->
+        <div id="goal" class="row">
+            <div class="scoreText col-xl-12 d-flex justify-content-center">
+                Goal
+            </div>
+            <div id="goalNum" class="col-xl-12 d-flex justify-content-center">
+                0
+            </div>
+        </div>
+    </div>
+    <!-- Wins/Losses, Gems and User Score -->
+    <div class="container col-xl-5">
+    <!-- Wins/Losses -->
+    <div class="row d-flex justify-content-center">
+            <div>
+                <div class="winText col-xl-12 d-flex justify-content-center">
+                    wins
+                </div>
+                <div id="winTotal" class="col-xl-12 d-flex justify-content-center" >
+                    0
+                </div>
+                <div class="lossText col-xl-12 d-flex justify-content-center">
+                    losses
+                </div>
+                <div id="loseTotal" class="col-xl-12 d-flex justify-content-center" >
+                        0
+                </div>
+            </div>
+        </div>
+        <!-- Gems -->
+        <div id="gemRow" class="row col-xl-12 d-flex justify-content-center">
+            <img id="redGem" class="gemProperties" src="assets\css\images\RedGem.png" alt="Red Gem">
+            <img id="greenGem" class="gemProperties" src="assets\css\images\GreenGem.png" alt="Green Gem">
+            <img id="orangeGem" class="gemProperties" src="assets\css\images\OrangeGem.png" alt="Orange Gem">
+            <img id="purpleGem" class="gemProperties" src="assets\css\images\PurpleGem.png" alt="Purple Gem">
+            <img id="whiteGem" class="gemProperties" src="assets\css\images\WhiteGem.png" alt="White Gem">
+        </div>
+        <!-- User Score -->
+        <div id="userScore" class="row">
+            <div class="scoreText col-xl-12 d-flex justify-content-center" >
+                User Score
+            </div>
+            <div id="userNum" class="col-xl-12 d-flex justify-content-center">
+                0
+            </div>
+        </div>
+    </div>
+    <!-- Restart Button -->
+    <div class="row">
+        <div>
+            <a name="Restart" id="restartBtn" class="btn btn-primary" href="#" role="button">Restart</a>
+        </div>
+    </div>
+
+  </body>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- JavaScript -->
+        <script src="assets/javascript/game.js"></script>
+</html>
